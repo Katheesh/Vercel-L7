@@ -83,6 +83,7 @@
                 <div class="title m-b-md">
                     VERCEL LARAVEL
                 </div>
+                <a class="links" href="/products">CRUD Example</a>
             </div>
         </div>
     </body>
