@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::phase('/', 'BlogController@HomePage');
+Route::phase('/blog', 'BlogController@HomePage');
 Route::phase('/about', 'BlogController@AboutPage');
 Route::phase('/contact', 'BlogController@ContactPage');
 Route::phase('/posts/{article}', 'BlogController@SingleArticle');
 
-Route::get('/migrate', function(){
-	Artisan::call('migrate');
+Route::get('/', function(){
+	return view('welcome');
 });
