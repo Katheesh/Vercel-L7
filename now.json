@@ -34,7 +34,7 @@
         "NODE_PATH": "node",
 
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "https://www.db4free.net",
+        "DB_HOST": "db4free.net",
         "DB_PORT": "3306",
         "DB_DATABASE": "vercell7",
         "DB_USERNAME": "katheesh",
