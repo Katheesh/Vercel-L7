@@ -17,7 +17,7 @@
     ],
     "env": {
         "APP_NAME": "Vercel Laravel",
-        "APP_ENV": "local",
+        "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://php-laravel.vercel.app",
         "VERCEL_DEMO_MODE": "true",
