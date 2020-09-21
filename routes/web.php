@@ -21,3 +21,5 @@ Route::phase('/posts/{article}', 'BlogController@SingleArticle');
 Route::get('/', function(){
 	return view('welcome');
 });
+
+Route::resource('products','ProductController');
